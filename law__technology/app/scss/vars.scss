@@ -1,0 +1,31 @@
+@mixin main-text {
+  font: {
+    family: "Lato", sans-serif;
+    size: 15px;
+    weight: 300;
+  }
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 25px;
+}
+@mixin secondary-text {
+  font: {
+    family: "Lato", sans-serif;
+    size: 14px;
+    weight: 300;
+  }
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 25px;
+  letter-spacing: 0.01em;
+}
+
+@mixin btn {
+  font: {
+    family: "Lato", sans-serif;
+    size: 12px;
+    weight: 600;
+  }
+  color: #ec7063;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  text-transform: uppercase;
+}
