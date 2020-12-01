@@ -1,0 +1,256 @@
+@media (max-width: 1500px) {
+  .advantages {
+    left: 15%;
+  }
+}
+@media (max-width: 1400px) {
+  .advantages {
+    left: 10%;
+  }
+}
+@media (max-width: 1300px) {
+  .advantages {
+    left: 0%;
+  }
+}
+@media (max-width: 1235px) {
+  .menu__list .nav__search {
+    margin-right: 20px;
+  }
+  .review__item-text .review__text {
+    margin-left: 40px;
+    margin-right: 50px;
+  }
+  .review__item-text h3 {
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .privilege__list {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .privilege__item + .privilege__item {
+    margin-left: 0;
+  }
+  .advantages__list {
+    display: none;
+  }
+  .review {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 1190px) {
+  .services__list-item:nth-child(2n) {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 1155px) {
+  .work__type-list {
+    justify-content: center;
+  }
+  .work__type-item:nth-child(even) {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 1017px) {
+  .menu__list {
+    line-height: 30px;
+    display: block;
+    font-size: 15px;
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding-top: 0;
+    top: 76px;
+    z-index: 1;
+    text-align: center;
+    a {
+      display: block;
+    }
+    li {
+      display: block;
+      height: 35px;
+      border-bottom: 1px solid #000;
+      & + li {
+        margin-left: 0;
+      }
+      &:first-child {
+        border-top: 1px solid #fff;
+      }
+    }
+  }
+  .menu__list-burger {
+    display: block;
+  }
+  .menu__list .nav__search {
+    margin-right: 0px;
+  }
+  .menu__list .nav__search::after {
+    position: absolute;
+    content: "";
+    width: 22px;
+    height: 22px;
+    right: 49%;
+    background-image: url(../images/icons/search.svg);
+    top: 216px;
+    background-repeat: no-repeat;
+  }
+  .review__item-text p {
+    margin-bottom: 10px;
+  }
+  .services__addition-inner {
+    flex-direction: column;
+  }
+  .services__addition {
+    margin-bottom: 20px;
+  }
+  .partners__item {
+    display: block;
+  }
+  .partners__logos {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img + img {
+      margin-left: 20px;
+    }
+  }
+  .services {
+    padding-bottom: 30px;
+  }
+  .footer__menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer .footer__menu-basic {
+    max-width: 100%;
+    margin-right: 0;
+  }
+  .feedback {
+    overflow: hidden;
+  }
+  .feedback__text {
+    overflow: hidden;
+  }
+  .feedback__wrapper {
+    padding: 0px 10px 0px;
+  }
+  .feedbacks {
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 877px) {
+  .review__img {
+    display: none;
+  }
+  .review__item {
+    height: auto;
+  }
+  .work__slider-item {
+    flex-direction: column;
+  }
+  .work__slider-item {
+    margin-bottom: 20px;
+  }
+  .cooperation {
+    flex-wrap: wrap;
+  }
+  .cooperation__descripttion {
+    margin-bottom: 20px;
+  }
+  .work__time {
+    max-width: 100%;
+    padding-top: 25px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 795px) {
+  .work__type-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .item__card {
+    width: 100%;
+    max-width: 100%;
+  }
+  .item__card-title {
+    margin-bottom: 40px;
+  }
+  .work__type-item:nth-child(even) {
+    margin-left: 0;
+  }
+}
+@media (max-width: 760px) {
+  .head___contacts-first,
+  .head___contacts-second {
+    display: none;
+  }
+  .services__box-inner {
+    display: block;
+  }
+  .services__item {
+    padding-bottom: 25px;
+    margin-right: 0;
+  }
+  .reasons__title,
+  .benefits__title {
+    margin-bottom: 20px;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 570px) {
+  .offices__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 670px;
+  }
+  .office__column + .office__column {
+    margin-left: 0px;
+  }
+  .feedback__name {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 630px) {
+  .work__slider-inner {
+    display: none;
+  }
+  .work__item-text {
+    margin-bottom: 20px;
+  }
+  .container-fluid {
+    padding: 0 20px;
+  }
+  .reasons,
+  .benefits {
+    display: block;
+  }
+  .reasons-text,
+  .benefits-text {
+    margin-right: 10px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .services__item-res {
+    display: block;
+  }
+  .services__box {
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 440px) {
+  .item__card-title {
+    margin-bottom: 20px;
+  }
+  .item__card {
+    padding-left: 15px;
+  }
+  .cooperation__form {
+    padding: 40px 15px 50px;
+  }
+}
